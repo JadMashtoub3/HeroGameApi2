@@ -14,7 +14,7 @@ namespace HeroGameApi.Controllers
         {
             using (SqlConnection sqlConnection = new SqlConnection("workstation id=MasterDBJad.mssql.somee.com;packet size=4096;user id=jadDb_103596586;pwd=Skylines33;data source=MasterDBJad.mssql.somee.com;persist security info=False;initial catalog=MasterDBJad"))
             {
-
+            
             }
         }
     }
