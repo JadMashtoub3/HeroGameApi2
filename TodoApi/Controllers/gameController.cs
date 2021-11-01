@@ -10,23 +10,29 @@ namespace HeroGameApi.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class gameController 
+    public class gameController : ControllerBase
     {
-        [HttpPost]
+        
+        
+        
+        [HttpPost] //gameid
         public void logGame([FromBody] JObject jsonBody)
         {
-            using (SqlConnection sqlConnection = new SqlConnection("workstation id=MasterDBJad.mssql.somee.com;packet size=4096;user id=jadDb_103596586;pwd=Skylines33;data source=MasterDBJad.mssql.somee.com;persist security info=False;initial catalog=MasterDBJad"))
+            //TODO: fix connection string
+            using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=test123;User Id=admin;password=testtesttest"))
             {
+                //inserts
                 SqlCommand sqlCommand = new SqlCommand
-                ("INSERT INTO GAME (GAME_ID, DATE_PLAYED, GAME_WINNER) VALUES ((SELECT MAX(GAME_ID) FROM GAME))", 
+                ("INSERT INTO GAME (GameId, Date, Winner) VALUES ((SELECT MAX(GameId) FROM Game))", 
                 sqlConnection);
                 
+                //returns winner and throws down date
                 sqlCommand.Parameters.AddWithValue
-                ("@winner", SqlDbType.NVarChar);
-
+                ("@winner", 
+                SqlDbType.NVarChar);
                 sqlCommand.Parameters
                 ["@winner"].Value = jsonBody
-                ["MatchWinner"].Value<string>();
+                ["Winner"].Value<string>();
                 
             sqlConnection.Open();
             sqlCommand.ExecuteNonQuery();
