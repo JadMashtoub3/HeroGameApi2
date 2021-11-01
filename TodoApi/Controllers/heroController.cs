@@ -19,7 +19,7 @@ namespace WebApi.Controllers
         public Hero getHeroById(int heroId)
         {
             //TODO: fix connection string
-            using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=test123;User Id=admin;password=testtesttest"))
+            using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=HeroDB;User Id=admin;password=testtesttest"))
             {
                 //selects hero's of entered id if exists
                 SqlCommand sqlCommand = new SqlCommand

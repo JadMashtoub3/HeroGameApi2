@@ -19,7 +19,7 @@ namespace HeroGameApi.Controllers
         public void logGame([FromBody] JObject jsonBody)
         {
             //TODO: fix connection string
-            using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=test123;User Id=admin;password=testtesttest"))
+            using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=HeroDB;User Id=admin;password=testtesttest"))
             {
                 //inserts
                 SqlCommand sqlCommand = new SqlCommand

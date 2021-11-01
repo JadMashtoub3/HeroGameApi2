@@ -74,3 +74,4 @@ A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.N
 A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\WebLib.dll
 A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\WebLib.pdb
+A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.csproj.CopyComplete
