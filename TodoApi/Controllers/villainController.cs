@@ -26,7 +26,6 @@ namespace WebApi.Controllers
                 ("SELECT * FROM VILLAIN WHERE VillainId = @id", 
                 sqlConnection);
 
-                //adds Villain with entered id if doesnt exist
                 sqlCommand.Parameters.Add
                 ("@id", 
                 SqlDbType.Int);

@@ -2,15 +2,12 @@ using System;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 
-namespace Heroo
+namespace HeroApi
 {
-    public class HeroGameApi
+    public class DbHandler
     {
         public static string GetConnectionString() {
-        
             try {
-                
-
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
                 builder.DataSource = "jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com";
                 builder.UserID = "admin";
@@ -18,8 +15,8 @@ namespace Heroo
                 builder.InitialCatalog = "HeroDB";
                 return builder.ConnectionString;
             }
-                catch(Exception e) {
-                    throw new Exception("Incorrect Connection string " + e.Message);
+                catch(Exception e) { //returns if unable to connect to database
+                    throw new Exception("Unable to retrieve connection string " + e.Message);
             }
         }
     }

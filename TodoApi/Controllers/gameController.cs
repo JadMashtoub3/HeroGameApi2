@@ -15,10 +15,10 @@ namespace HeroGameApi.Controllers
         
         
         
-        [HttpPost] //gameid
+        [HttpPost] //posts game stats to be updated
         public void logGame([FromBody] JObject jsonBody)
         {
-            //TODO: fix connection string
+            
             using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=HeroDB;User Id=admin;password=testtesttest"))
             {
                 //inserts
@@ -26,7 +26,7 @@ namespace HeroGameApi.Controllers
                 ("INSERT INTO GAME (GameId, Date, Winner) VALUES ((SELECT MAX(GameId) FROM Game))", 
                 sqlConnection);
                 
-                //returns winner and throws down date
+                
                 sqlCommand.Parameters.AddWithValue
                 ("@winner", 
                 SqlDbType.NVarChar);

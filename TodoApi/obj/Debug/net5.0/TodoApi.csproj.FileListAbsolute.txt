@@ -75,3 +75,41 @@ A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\WebLib.dll
 A:\Github stuff\HeroGameApi2\TodoApi\bin\Debug\net5.0\WebLib.pdb
 A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.csproj.CopyComplete
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\appsettings.json
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\TodoApi.exe
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\TodoApi.deps.json
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\TodoApi.runtimeconfig.json
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\TodoApi.runtimeconfig.dev.json
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\TodoApi.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\ref\TodoApi.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\TodoApi.pdb
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\staticwebassets\TodoApi.StaticWebAssets.Manifest.cache
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\staticwebassets\TodoApi.StaticWebAssets.xml
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\scopedcss\bundle\TodoApi.styles.css
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.RazorTargetAssemblyInfo.cache
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\ref\TodoApi.dll
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.pdb
+C:\Users\ADMIN\Documents\GitHub\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.genruntimeconfig.cache
