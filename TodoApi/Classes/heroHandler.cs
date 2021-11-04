@@ -52,7 +52,7 @@ namespace HeroGameApi {
             return hero;
         }
 
-        public static string AddHeros(Hero newHero) { // creates new hero
+        public static string AddHeros(Hero newHero) { // creates new hero with filled in values
             using(SqlConnection conn = new SqlConnection(GetConnectionString())){
                 conn.Open();
 
@@ -73,7 +73,7 @@ namespace HeroGameApi {
             return "New hero created";
         }
 
-        public static string UpdateHero(Hero hero) { //updates hero
+        public static string UpdateHero(Hero hero) { //updates hero with no filled in valies
             using(SqlConnection conn = new SqlConnection(GetConnectionString())) {
                 conn.Open();
 
@@ -92,11 +92,11 @@ namespace HeroGameApi {
             return "Hero has been updated";
         }
 
-        public static string DeleteHero(Hero hero) { //deletes hero by id
+        public static string DeleteHero(Hero hero) { //deletes hero with selected HeroID
             using(SqlConnection conn = new SqlConnection(GetConnectionString())) {
                 conn.Open();
 
-                using(SqlCommand command = new SqlCommand("DELETE_HERO", conn)) {
+                using(SqlCommand command = new SqlCommand("DELETE_HERO", conn)) { //executes stored procedure
                     command.CommandType = System.Data.CommandType.StoredProcedure;
                     command.Parameters.AddWithValue("@pHEROID", hero.HeroId);
                     command.ExecuteNonQuery();

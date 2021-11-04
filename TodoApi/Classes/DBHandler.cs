@@ -9,10 +9,10 @@ namespace HeroGameApi
         public static string GetConnectionString() {
             try {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com";
-                builder.UserID = "admin";
-                builder.Password = "testtesttest";
-                builder.InitialCatalog = "HeroDB";
+                builder.DataSource = "jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com"; //ConnectionString
+                builder.UserID = "admin"; //login user
+                builder.Password = "testtesttest"; //login Password
+                builder.InitialCatalog = "HeroDB"; //login database
                 return builder.ConnectionString;
             }
                 catch(Exception e) { //returns if unable to connect to database

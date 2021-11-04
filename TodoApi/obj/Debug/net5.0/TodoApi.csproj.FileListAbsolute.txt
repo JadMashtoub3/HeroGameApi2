@@ -1,7 +1,0 @@
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.csproj.AssemblyReference.cache
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.GeneratedMSBuildEditorConfig.editorconfig
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.AssemblyInfoInputs.cache
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.AssemblyInfo.cs
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.csproj.CoreCompileInputs.cache
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.MvcApplicationPartsAssemblyInfo.cs
-A:\Github stuff\HeroGameApi2\TodoApi\obj\Debug\net5.0\TodoApi.MvcApplicationPartsAssemblyInfo.cache

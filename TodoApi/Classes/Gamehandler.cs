@@ -5,12 +5,12 @@ using HeroGameApi;
 namespace HeroGameApi {
     public class GameHandler:DbHandler {
 
-        public static string AddGame(Game newGame){
+        public static string AddGame(Game newGame){ //adds a name game when parameters are filled
             
             using(SqlConnection conn = new SqlConnection(GetConnectionString())){
 
                 conn.Open();
-               //adds new game
+               
                 using (SqlCommand command = new SqlCommand("ADD_GAME", conn)) {
                     command.CommandType = System.Data.CommandType.StoredProcedure;
                     command.Parameters.AddWithValue
@@ -29,8 +29,8 @@ namespace HeroGameApi {
             
         }
 
-        public static List<Game> GetGames(){ //TODO FIX THIS
-                //gets list of games
+        public static List<Game> GetGames(){ //TODO FIX THIS (gets list of games)
+                
             List<Game> games = new List<Game>();
             using(SqlConnection conn = new SqlConnection(GetConnectionString())){
 
@@ -41,7 +41,8 @@ namespace HeroGameApi {
                         while(reader.Read()){
                             games.Add(new Game(){ GameID = reader.GetInt32(0),
                                                   Winner = reader.GetString(1),
-                                                  Date = reader.GetDateTime(2),
+                                                  Date = reader.GetDateTime(2), 
+                                                  //needs to be converted to date, idk how
                                                   Rolls = reader.GetString(3)});
                                                  
                         }

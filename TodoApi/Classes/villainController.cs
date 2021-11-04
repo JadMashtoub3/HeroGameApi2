@@ -17,7 +17,7 @@ namespace WebApi.Controllers
         [HttpGet("{villainId}")]
         public Villain getVillainById(int villainId)
         {
-            //TODO: fix connection string
+            //connection string
             using (SqlConnection sqlConnection = new SqlConnection("Server=jaddb.cczgdgxklsc1.us-east-1.rds.amazonaws.com,1433;Database=HeroDB;User Id=admin;password=testtesttest"))
             {
                 //selects Villain of entered id if exists
