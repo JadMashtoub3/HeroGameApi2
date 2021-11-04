@@ -11,10 +11,11 @@ DROP TABLE IF EXISTS HERO
 DROP TABLE IF EXISTS GAME
 
 CREATE TABLE GAME(
-    GameId INT Primary KEY,
-    Winner NVARCHAR(1)
+    GameId INT Primary Key,
+    Winner NVARCHAR(1),
     CHECK(Winner IN ('W','L')),
-    [DateTime] Date
+    [DateTime] DateTime,
+    Attacks NVARCHAR(100)
 )
 
 CREATE TABLE HERO(
@@ -38,8 +39,8 @@ INSERT INTO Villain VALUES(2,'Villain2',1)
 INSERT INTO Villain VALUES(3,'Villain3',1)
 INSERT INTO Villain VALUES(4,'Villain4',1)
 
-INSERT INTO GAME VALUES(1,'W','1-11-2021')
-INSERT INTO GAME VALUES(2,'W','1-11-2020')
+INSERT INTO GAME VALUES(1,'W','1/11/2021',1)
+
 
 
 Select * From Villain
@@ -175,6 +176,25 @@ BEGIN
     BEGIN CATCH
         IF ERROR_NUMBER() = 50060
             THROW
+    END CATCH
+END
+
+GO
+-- add_GAME
+IF OBJECT_ID('ADD_GAME') IS NOT NULL
+DROP PROCEDURE ADD_GAME
+GO
+
+CREATE PROCEDURE ADD_GAME @pgameid int, @pWINNER NVARCHAR(100), @pATTACKS NVARCHAR(100), @pDATE DATE AS
+BEGIN
+    BEGIN TRY
+        INSERT INTO Game(gameid, winner, attacks, [DateTime])
+        VALUES(@pgameid, @pwinner, @pATTACKS, @pDATE);
+    END TRY
+
+    BEGIN CATCH
+        IF ERROR_NUMBER() = 2627
+            THROW 50020, 'unable to add game', 1
     END CATCH
 END
 

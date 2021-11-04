@@ -2,7 +2,7 @@ using System;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 
-namespace HeroApi
+namespace HeroGameApi
 {
     public class DbHandler
     {

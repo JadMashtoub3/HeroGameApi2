@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Documents\\GitHub\\HeroGameApi2\\TodoApi\\TodoApi.csproj": {}
+    "A:\\Github stuff\\HeroGameApi2\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Documents\\GitHub\\HeroGameApi2\\TodoApi\\TodoApi.csproj": {
+    "A:\\Github stuff\\HeroGameApi2\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\GitHub\\HeroGameApi2\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "A:\\Github stuff\\HeroGameApi2\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\HeroGameApi2\\TodoApi\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\HeroGameApi2\\TodoApi\\obj\\",
+        "projectPath": "A:\\Github stuff\\HeroGameApi2\\TodoApi\\TodoApi.csproj",
+        "packagesPath": "C:\\Users\\Jad\\.nuget\\packages\\",
+        "outputPath": "A:\\Github stuff\\HeroGameApi2\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,10 +38,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

@@ -2,7 +2,6 @@ using System;
 using System.Data.SqlClient;
 using System.Collections.Generic;
 using HeroGameApi;
-using HeroApi;
 
 namespace HeroGameApi {
     public class heroHandler:DbHandler {
@@ -63,6 +62,8 @@ namespace HeroGameApi {
                     command.Parameters.AddWithValue("@pNAME", newHero.HName);
                     command.Parameters.AddWithValue("@pMINDICE", newHero.MinHit);
                     command.Parameters.AddWithValue("@pMAXDICE", newHero.MaxHit);
+                    
+                   
                     command.ExecuteNonQuery();
                     
                     conn.Close();                 
@@ -82,6 +83,7 @@ namespace HeroGameApi {
                     command.Parameters.AddWithValue("@pNAME", hero.HName);
                     command.Parameters.AddWithValue("@pMINDICE", hero.MinHit);
                     command.Parameters.AddWithValue("@pMAXDICE", hero.MaxHit);
+                    
                     command.ExecuteNonQuery();
 
                     conn.Close();

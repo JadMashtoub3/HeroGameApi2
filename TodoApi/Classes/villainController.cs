@@ -3,8 +3,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System;
 using HeroGameApi;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
+
 
 namespace WebApi.Controllers
 {

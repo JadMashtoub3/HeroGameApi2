@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using HeroGameApi;
 using WebApi;
-using HeroApi;
+
 
 namespace HeroGameApi.Controllers {
     [ApiController]
